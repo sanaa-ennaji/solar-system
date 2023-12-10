@@ -1,0 +1,76 @@
+body{
+    margin : 0px;
+    padding: 0px;
+    /* background-image: url(sky.jpg); */
+    background-color: #060505;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+}
+.sun{
+    height : 120px;
+    width : 120px ;
+    /* background-image: url(The_Sun.jpg); */
+    background-color: rgb(229, 144, 7);
+    border-radius: 50%; 
+    background-size: cover;  
+    box-shadow: -4px 2px 56px #ecf95f;
+     position : absolute ;
+     left: 50%;
+     top: 50%;
+    transform: translate(-50% ,- 50%);
+}
+/* radial-gradient(circle, #935f2a 60% #54370c 75%); */
+.mercury{
+    height: 20px;
+    width: 20px;
+    background-color: #ecf95f;
+    background : #422b0a;
+    border-radius: 50%;
+    position : absolute;
+    box-shadow : -4px 2px 56px #f9c05f ;
+    left : 58%;
+    top: 56%;
+    transform: translate(-50% , -50%);
+    animation : orbit2 5s linear infinite ;
+}
+@keyframes orbit2{
+    from{transform:rotate(0deg)translateX(150px) rotate(0deg);}
+    to{transform:rotate(360deg)translateX(150px) rotate(-360deg); }
+}
+p{
+    color: rgb(171, 171, 148) ;
+    font-family: absolute;
+    left : -62px;
+    top :-11px;
+}
+/* .mercury-outline ,.venus-outline, .earth-outline, .mars-outline, .jupiter-outline , .saturn-outline , .uranus-outline , .neptune-outline
+{
+ border-radius: 50%;
+ border: 3px dotted rgba(250, 247, 247, 0.6);
+ position: absolute;
+ top: 50%;
+ left : 50%;
+ transform: translate(-50%,-50%);
+} */
+.mercury-outline{
+    height: 140px;
+    width: 140px;
+}
+.venus{
+    height: 40px;
+    width: 40px;
+    background-color: #ecf95f;
+    border-radius: 50%;
+    position : absolute;
+    box-shadow : -4px 2px 56px #4b402b ;
+    left : 60%;
+    top: 60%;
+    transform: translate(-50% , -50%);
+    animation : orbit3 10s linear infinite ;
+}
+@keyframes orbit3{
+    from{transform:rotate(0deg)translateX(180px) rotate(0deg);}
+    to{transform:rotate(360deg)translateX(180px) rotate(-360deg); }
+}
+
