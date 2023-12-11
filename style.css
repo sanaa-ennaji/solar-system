@@ -45,7 +45,7 @@ body {
     left: 53%;
     top: 58%;
     transform: translate(-50%, -50%);
-    animation: orbit2 4s linear infinite;
+    animation: orbit2 3s linear infinite;
 }
 
 @keyframes orbit2 {
@@ -88,10 +88,10 @@ p {
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #4b402b;
-    left: 60%;
-    top: 60%;
+    left: 54%;
+    top: 59%;
     transform: translate(-10%, -10%);
-    animation: orbit3 10s linear infinite;
+    animation: orbit3 5s linear infinite;
 }
 
 @keyframes orbit3 {
@@ -116,23 +116,21 @@ p {
     border-radius: 50%;
     position: absolute;
     box-shadow: -5px 2px 50px #0c7b3a;
-    left: 50%;
-    top: 50%;
+    left: 53%;
+    top: 58%;
     transform: translate(-50%, -50%);
-    animation: orbit4 12s linear infinite;
+    animation: orbit4 5s linear infinite;
 }
 
 @keyframes orbit4 {
     from {
-        transform: rotate(0deg)translateX(250px) rotate(0deg);
+        transform: rotate(0deg)translateX(240px) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+        transform: rotate(360deg)translateX(240px) rotate(-360deg);
     }
 }
-
-
 
 .mars {
     height: 60px;
@@ -141,10 +139,10 @@ p {
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #db3e0e;
-    left: 80%;
-    top: 80%;
+    left: 54%;
+    top: 55%;
     transform: translate(-50%, -50%);
-    animation: orbit5 15s linear infinite;
+    animation: orbit5 4s linear infinite;
 }
 
 @keyframes orbit5 {
@@ -164,19 +162,19 @@ p {
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #4b402b;
-    left: 90%;
-    top: 90%;
+    left: 50%;
+    top: 54%;
     transform: translate(-50%, -50%);
     animation: orbit6 12s linear infinite;
 }
 
 @keyframes orbit6 {
     from {
-        transform: rotate(0deg)translateX(300px) rotate(0deg);
+        transform: rotate(0deg)translateX(320px) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg)translateX(300px) rotate(-360deg);
+        transform: rotate(360deg)translateX(320px) rotate(-360deg);
     }
 }
 
@@ -195,11 +193,11 @@ p {
 
 @keyframes orbit7 {
     from {
-        transform: rotate(0deg)translateX(350px) rotate(0deg);
+        transform: rotate(0deg)translateX(360px) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg)translateX(350px) rotate(-360deg);
+        transform: rotate(360deg)translateX(360px) rotate(-360deg);
     }
 }
 
@@ -210,41 +208,41 @@ p {
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #4b402b;
-    left: 100%;
-    top: 100%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     animation: orbit8 14s linear infinite;
 }
 
 @keyframes orbit8 {
     from {
-        transform: rotate(0deg)translateX(250px) rotate(0deg);
+        transform: rotate(0deg)translateX(400px) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+        transform: rotate(360deg)translateX(400px) rotate(-360deg);
     }
 }
 
 .neptune {
     height: 60px;
     width: 60px;
-    background-color: #184297;
+    background-color: #10203f;
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #4b402b;
-    left: 120%;
-    top: 120%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     animation: orbit9 12s linear infinite;
 }
 
 @keyframes orbit9 {
     from {
-        transform: rotate(0deg)translateX(250px) rotate(0deg);
+        transform: rotate(0deg)translateX(450px) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+        transform: rotate(360deg)translateX(450px) rotate(-360deg);
     }
 }
