@@ -2,23 +2,37 @@ body {
     margin: 0px;
     padding: 0px;
     /* background-image: url(sky.jpg); */
-    background-color: #060505;
+    background-color: rgb(5, 5, 23);
     /* background-size: 100%; */
-    /* background-repeat: no-repeat; */
-    height: 100vh;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+   
 }
 
 .carts{
-    background-color: rgba(171, 171, 148,0.3);
-    height: 70%;
-    width: 18%;
-    padding: 8px 2rem;
-}
-.carts p{
-    margin: 2rem;
-    position: relative;
+    background-color: rgba(171, 171, 148,0.2);
+    height: 66%;
+    width: 15%;
+    
+    padding: 1px 1px;
+    border-bottom: 1px solid ;
+   
 
 }
+.carts p{
+    padding: auto;
+    position: relative;
+    text-align: center;
+  color: #eef1f7;
+}
+hr{
+    margin-left: 0;
+    width: 100%;
+   
+    border-color: #898787;
+
+}
+
 .sun {
     height: 120px;
     width: 120px;
@@ -42,31 +56,31 @@ body {
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #f9c05f;
-    left: 53%;
-    top: 58%;
+    left: 43%;
+    top: 42%;
     transform: translate(-50%, -50%);
-    animation: orbit2 3s linear infinite;
+    animation: orbit2 2s linear infinite;
 }
 
 @keyframes orbit2 {
     from {
-        transform: rotate(0deg)translateX(120px) rotate(0deg);
+        transform: rotate(0deg)translateX(70px) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg)translateX(120px) rotate(-360deg);
+        transform: rotate(360deg)translateX(70px) rotate(-360deg);
     }
 }
 
 p {
     color: rgb(171, 171, 148);
     position: absolute;
-    font-family: absolute;
-    left: -40px;
-    top: -10px;
+    font-family: system-ui;
+    left: -62;
+    top: -11px;
 }
 
-/* .mercury-outline ,.venus-outline, .earth-outline, .mars-outline, .jupiter-outline , .saturn-outline , .uranus-outline , .neptune-outline
+.mercury-outline ,.venus-outline, .earth-outline, .mars-outline, .jupiter-outline , .saturn-outline , .uranus-outline , .neptune-outline
 {
  border-radius: 50%;
  border: 1px dotted rgba(245, 243, 243, 0.6);
@@ -78,7 +92,7 @@ p {
 .mercury-outline {
     height: 140px;
     width: 140px;
-} */
+}
 
 
 .venus {
