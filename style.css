@@ -1,76 +1,244 @@
-body{
-    margin : 0px;
+body {
+    margin: 0px;
     padding: 0px;
     /* background-image: url(sky.jpg); */
     background-color: #060505;
-    background-size: 100%;
+    /* background-size: 100%; */
     /* background-repeat: no-repeat; */
-    /* height: 100vh; */
+    height: 100vh;
 }
-.sun{
-    height : 120px;
-    width : 120px ;
+
+.carts{
+    background-color: rgba(171, 171, 148,0.3);
+    height: 70%;
+    width: 18%;
+}
+.sun {
+    height: 120px;
+    width: 120px;
     /* background-image: url(The_Sun.jpg); */
     background-color: rgb(229, 144, 7);
-    border-radius: 50%; 
-    background-size: cover;  
+    border-radius: 50%;
+    background-size: cover;
     box-shadow: -4px 2px 56px #ecf95f;
-     position : absolute ;
-     left: 50%;
-     top: 50%;
-    transform: translate(-50% ,- 50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, - 50%);
 }
+
 /* radial-gradient(circle, #935f2a 60% #54370c 75%); */
-.mercury{
+.mercury {
     height: 20px;
     width: 20px;
     background-color: #ecf95f;
-    background : #422b0a;
+    background: #422b0a;
     border-radius: 50%;
-    position : absolute;
-    box-shadow : -4px 2px 56px #f9c05f ;
-    left : 58%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #f9c05f;
+    left: 52%;
     top: 56%;
-    transform: translate(-50% , -50%);
-    animation : orbit2 5s linear infinite ;
+    transform: translate(-50%, -50%);
+    animation: orbit2 5s linear infinite;
 }
-@keyframes orbit2{
-    from{transform:rotate(0deg)translateX(150px) rotate(0deg);}
-    to{transform:rotate(360deg)translateX(150px) rotate(-360deg); }
+
+@keyframes orbit2 {
+    from {
+        transform: rotate(0deg)translateX(150px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(150px) rotate(-360deg);
+    }
 }
-p{
-    color: rgb(171, 171, 148) ;
+
+p {
+    color: rgb(171, 171, 148);
+    position: absolute;
     font-family: absolute;
-    left : -62px;
-    top :-11px;
+    left: -40px;
+    top: -10px;
 }
+
 /* .mercury-outline ,.venus-outline, .earth-outline, .mars-outline, .jupiter-outline , .saturn-outline , .uranus-outline , .neptune-outline
 {
  border-radius: 50%;
- border: 3px dotted rgba(250, 247, 247, 0.6);
+ border: 1px dotted rgba(245, 243, 243, 0.6);
  position: absolute;
- top: 50%;
- left : 50%;
+ top: 58%;
+ left : 58%;
  transform: translate(-50%,-50%);
-} */
-.mercury-outline{
+}
+.mercury-outline {
     height: 140px;
     width: 140px;
-}
-.venus{
+} */
+
+
+.venus {
     height: 40px;
     width: 40px;
     background-color: #ecf95f;
     border-radius: 50%;
-    position : absolute;
-    box-shadow : -4px 2px 56px #4b402b ;
-    left : 60%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #4b402b;
+    left: 60%;
     top: 60%;
-    transform: translate(-50% , -50%);
-    animation : orbit3 10s linear infinite ;
-}
-@keyframes orbit3{
-    from{transform:rotate(0deg)translateX(180px) rotate(0deg);}
-    to{transform:rotate(360deg)translateX(180px) rotate(-360deg); }
+    transform: translate(-10%, -10%);
+    animation: orbit3 10s linear infinite;
 }
 
+@keyframes orbit3 {
+    from {
+        transform: rotate(0deg)translateX(180px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(180px) rotate(-360deg);
+    }
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+.earth {
+    height: 60px;
+    width: 60px;
+    background-color: #0c7b3a;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -5px 2px 50px #0c7b3a;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit4 12s linear infinite;
+}
+
+@keyframes orbit4 {
+    from {
+        transform: rotate(0deg)translateX(250px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+    }
+}
+
+
+
+.mars {
+    height: 60px;
+    width: 60px;
+    background-color: #db3e0e;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #db3e0e;
+    left: 80%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    animation: orbit5 15s linear infinite;
+}
+
+@keyframes orbit5 {
+    from {
+        transform: rotate(0deg)translateX(280px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(280px) rotate(-360deg);
+    }
+}
+
+.jupiter {
+    height: 60px;
+    width: 60px;
+    background-color: #4b402b;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #4b402b;
+    left: 90%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    animation: orbit6 12s linear infinite;
+}
+
+@keyframes orbit6 {
+    from {
+        transform: rotate(0deg)translateX(300px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(300px) rotate(-360deg);
+    }
+}
+
+.saturn {
+    height: 60px;
+    width: 60px;
+    background-color: #ad7b18;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #4b402b;
+    left: 100%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    animation: orbit7 12s linear infinite;
+}
+
+@keyframes orbit7 {
+    from {
+        transform: rotate(0deg)translateX(350px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(350px) rotate(-360deg);
+    }
+}
+
+.uranus {
+    height: 60px;
+    width: 60px;
+    background-color: #184297;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #4b402b;
+    left: 100%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    animation: orbit8 14s linear infinite;
+}
+
+@keyframes orbit8 {
+    from {
+        transform: rotate(0deg)translateX(250px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+    }
+}
+
+.neptune {
+    height: 60px;
+    width: 60px;
+    background-color: #184297;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #4b402b;
+    left: 120%;
+    top: 120%;
+    transform: translate(-50%, -50%);
+    animation: orbit9 12s linear infinite;
+}
+
+@keyframes orbit9 {
+    from {
+        transform: rotate(0deg)translateX(250px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+    }
+}
